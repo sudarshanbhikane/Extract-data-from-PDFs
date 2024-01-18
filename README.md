@@ -5,15 +5,6 @@
 This UiPath project is designed to  extraction of data from multiple PDF files. In this lesson, you will  utilize the Modern Get Text activity to extract specific information, including Invoice Number, Invoice Date, and Invoice Total, from native PDF files. The extracted data will then be organized and written into an Excel file.
 
 
-
-## Getting Started
-
-### Your Turn
-
-This exercise presents a valuable opportunity to refine your UiPath skills through hands-on practice. Engage with variables, input/output activities, and basic calculations to successfully complete the task.
-
-![Your Turn](Your_Turn_NOPROCESS_.png)
-
 ## Project Files
 
 ### Exercise Resources
