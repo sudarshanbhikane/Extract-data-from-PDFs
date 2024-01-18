@@ -1,16 +1,24 @@
+---
+
 # UiPath Project - Extract Data from Multiple PDFs
 
 ## Overview
 
-This UiPath project is designed to  extraction of data from multiple PDF files. In this lesson, you will  utilize the Modern Get Text activity to extract specific information, including Invoice Number, Invoice Date, and Invoice Total, from native PDF files. The extracted data will then be organized and written into an Excel file.
+This UiPath project automates the extraction of data from multiple PDF files. Using the Modern Get Text activity, the workflow extracts specific information, including Invoice Number, Invoice Date, and Invoice Total, from native PDF files. The extracted data is then organized and written into an Excel file.
 
+## Project Dependencies
+
+Ensure the following dependencies are installed:
+
+- UiPath.Excel.Activities
+- UiPath.System.Activities
+- UiPath.UiAutomation.Activities
 
 ## Project Files
 
 ### Exercise Resources
 
 - [PDF Exercise Resource.zip](PDF%20Exercise%20Resource.zip) (103.8 KB)
-
 
 ## Solution Steps
 
@@ -31,7 +39,7 @@ This UiPath project is designed to  extraction of data from multiple PDF files. 
 
 5. **PDF Processing Loop:**
    - Add a For Each File in Folder activity to iterate through the PDF files.
-   - Utilize Use Application/Browser activity to open PDF files in Adobe Acrobat Reader.
+   - Utilize the Use Application/Browser activity to open PDF files in Adobe Acrobat Reader.
    - Add Get Text activities to extract data containing Invoice Number, Invoice Date, and Invoice Total.
    - Use Assign activities to refine and process the extracted data.
    - Utilize Add Data Row activity to store the extracted data in `dt_InvoiceDetails`.
@@ -44,3 +52,5 @@ This UiPath project is designed to  extraction of data from multiple PDF files. 
    - Populate the Excel file with data from `dt_InvoiceDetails`.
 
 Feel free to explore and enhance the solution by incorporating additional fields or refining the workflow further. Happy automating!
+
+---
